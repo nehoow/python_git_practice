@@ -4,7 +4,6 @@ lesser = None
 while True:
     try:
         user_input = int(input("Input a number: "))
-
         if lesser is None or user_input < lesser:
             lesser = user_input
 
