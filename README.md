@@ -1,3 +1,3 @@
 Python and Git practice.
-A practice basic input handling, loops, and mathematical operations.
+practicing basic input handling, loops, lists, sets, and mathematical operations.
 and Basic git usage.
