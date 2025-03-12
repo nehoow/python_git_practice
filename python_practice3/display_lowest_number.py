@@ -6,9 +6,7 @@ while True:
         user_input = int(input("Input a number: "))
         if lesser is None or user_input < lesser:
             lesser = user_input
-
         print("Lowest so far:", lesser)
-
     except ValueError:
         print("\nFinal lowest number:", lesser)
         break 
