@@ -4,8 +4,6 @@ seen = set()
 while True:
     try:
         user_input = int(input("Input a number: "))  
-  
-
         if user_input in seen:
             print("Duplicate")
         else:
