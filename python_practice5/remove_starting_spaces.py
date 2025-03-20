@@ -2,6 +2,6 @@
 #Example:
 #Input:         Juan Dela Cruz
 #Output: Juan Dela Cruz
-#ask the user input()
-#l.strip to remove the spaces in the beginning
-#print result
+full_name = input("Input your full name with several spaces in the beginning:")
+removed_spaces_name = full_name.lstrip()
+print(removed_spaces_name)
