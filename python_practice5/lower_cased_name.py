@@ -4,5 +4,8 @@
 #Output: juan dela cruz
 
 #Ask the user input for their full name
+full_name = input("Enter your fullname: ")
 #lower case everything by using .lower()
+lower_cased_name = full_name.lower()
 #print the lower cased name
+print(lower_cased_name)
