@@ -2,6 +2,7 @@
 #Example:
 #Input: 143
 #Output: 000143
+
 #ask user input for 0-1000
 number = input("Input a number 0-1000: ")
 #add zeroes by using zfill

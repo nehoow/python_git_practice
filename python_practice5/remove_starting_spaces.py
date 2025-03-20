@@ -2,6 +2,7 @@
 #Example:
 #Input:         Juan Dela Cruz
 #Output: Juan Dela Cruz
+
 #ask the user their full name with several space at the beginning
 full_name = input("Input your full name with several spaces in the beginning:")
 #remove spaces in the beginning using lstrip
