@@ -2,6 +2,9 @@
 #Example:
 #Input: 143
 #Output: 000143
-#ask user input
-#use zfill to do add the zeroes 
+#ask user input for 0-1000
+number = input("Input a number 0-1000: ")
+#add zeroes by using zfill
+sixdigit_number = number.zfill(6)
 #print the result
+print(sixdigit_number)
