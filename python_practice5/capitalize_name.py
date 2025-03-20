@@ -4,5 +4,8 @@
 #Output: JUAN DELA CRUZ
 
 #Ask user to input their full name
+full_name = input("Enter your full name: ")
 #Using .upper to capitalize all letters.
+capitalized_name = full_name.upper()
 #print the capitalized string
+print(capitalized_name)
