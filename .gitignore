@@ -31,7 +31,7 @@ MANIFEST
 #  before PyInstaller builds the exe, so as to inject date/other infos into it.
 *.manifest
 *.spec
-
+scratch.txt
 # Installer logs
 pip-log.txt
 pip-delete-this-directory.txt
@@ -81,6 +81,7 @@ target/
 # IPython
 profile_default/
 ipython_config.py
+scratch.txt
 
 # pyenv
 #   For a library or package, you might want to ignore these files since the code is
