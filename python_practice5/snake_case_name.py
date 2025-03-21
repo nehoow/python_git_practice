@@ -4,5 +4,8 @@
 #Output: juan_dela_cruz
 
 #ask the user in incorrect casing
+name = input("Enter your fullname in incorrect casing: ")
 #lower case everything with lower and replace all space to _
+snake_case_name = name.lower().replace(' ','_')
 #print the result
+print(snake_case_name)
